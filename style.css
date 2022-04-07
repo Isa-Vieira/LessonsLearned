@@ -3,7 +3,13 @@ body{
 }
 #cabecalho{
     position: fixed;
-    top: 0; 
+    top: 0;
     
-}   
+#margin{
+  margin: 50px;
+  padding: 50px; 
+  border:40px;
+  
+}
+}
 }
