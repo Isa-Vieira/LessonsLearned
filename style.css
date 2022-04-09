@@ -1,15 +1,44 @@
 body{
   background-color: rgb(253,251,251);
+  padding: 50px;
+  margin: 100px;
+  border: 200px;
 }
 #cabecalho{
     position: fixed;
     top: 0;
-    
-#margin{
-  margin: 50px;
-  padding: 50px; 
-  border:40px;
+}
+
+ 
+#font{
+  font-family: monospace;
+  font-size: 20px;
+  line-height: 40px;
+  color: blue;
+}
+
+.lado-esquerdo{
+  display:block;
+  text-align: center;
+  width: 50%;
+  float: left;
+   
   
 }
+.lado-direito{
+  display: block;
+  text-align: center;
+  width: 50%;
+  float: left;
+    
 }
+
+.clearfix {
+clear: both;
 }
+
+
+
+
+
+
